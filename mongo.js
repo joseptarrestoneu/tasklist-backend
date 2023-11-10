@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-
 const url = process.env.MONGO_DB_URI
 
 mongoose.connect(url)
