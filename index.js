@@ -22,7 +22,6 @@ app.use(morgan(function (tokens, req, res) {
     ].join(' ')   
 }))
 
-
 app.get('/', (request, response) => {
     response.send('<h1>Hello World!</h1>')
 })
